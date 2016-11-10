@@ -15865,9 +15865,11 @@ figure.effect-goliath:hover p {
 }
 .landing-page .landing-content .carousel .caption {
   position: absolute;
-  top: 130px;
+  /*top: 130px;
   left: 15px;
-  bottom: auto;
+  bottom: auto;*/
+  top: 100px;
+  bottom:0;
   right: auto;
   text-align: left;
 }
@@ -15899,4 +15901,21 @@ figure.effect-goliath:hover p {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin-top: 60px;
+}
+/*Css added*/
+/*
+#containerSlide{
+ position: relative;
+}
+
+#captionSlide{
+ position: absolute;
+    bottom: 0;
+}
+*/
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
